@@ -69,6 +69,7 @@ public class Scheduler {
                         if(process.ioNextBlock == process.ioBlockInterval) {
                             Log(process, "I/O blocked", out);
                             process.timesBlocked++;
+                            process.ioNextBlock = 0;
                             processQueue.add(processQueue.remove());
                             break;
                         }

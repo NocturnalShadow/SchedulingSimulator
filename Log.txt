@@ -1,87 +1,138 @@
 #   State      Priority  Quantum  I/O Block    Progress 
-0   registered    1       1 ms    100 ms      0 ms | 1211 ms
-0   demoted       2       0 ms    100 ms      1 ms | 1211 ms
-1   registered    1       1 ms    500 ms      0 ms | 488 ms
-1   demoted       2       0 ms    500 ms      1 ms | 488 ms
-2   registered    1       1 ms    60 ms       0 ms | 1057 ms
-2   demoted       2       0 ms    60 ms       1 ms | 1057 ms
-3   registered    1       1 ms    0 ms        0 ms | 720 ms
-3   demoted       2       0 ms    0 ms        1 ms | 720 ms
-0   registered    2       2 ms    100 ms      1 ms | 1211 ms
-0   demoted       3       0 ms    100 ms      3 ms | 1211 ms
-1   registered    2       2 ms    500 ms      1 ms | 488 ms
-1   demoted       3       0 ms    500 ms      3 ms | 488 ms
-2   registered    2       2 ms    60 ms       1 ms | 1057 ms
-2   demoted       3       0 ms    60 ms       3 ms | 1057 ms
-3   registered    2       2 ms    0 ms        1 ms | 720 ms
-3   demoted       3       0 ms    0 ms        3 ms | 720 ms
-0   registered    3       4 ms    100 ms      3 ms | 1211 ms
-0   demoted       4       0 ms    100 ms      7 ms | 1211 ms
-1   registered    3       4 ms    500 ms      3 ms | 488 ms
-1   demoted       4       0 ms    500 ms      7 ms | 488 ms
-2   registered    3       4 ms    60 ms       3 ms | 1057 ms
-2   demoted       4       0 ms    60 ms       7 ms | 1057 ms
-3   registered    3       4 ms    0 ms        3 ms | 720 ms
-3   demoted       4       0 ms    0 ms        7 ms | 720 ms
-0   registered    4       8 ms    100 ms      7 ms | 1211 ms
-0   demoted       5       0 ms    100 ms     15 ms | 1211 ms
-1   registered    4       8 ms    500 ms      7 ms | 488 ms
-1   demoted       5       0 ms    500 ms     15 ms | 488 ms
-2   registered    4       8 ms    60 ms       7 ms | 1057 ms
-2   demoted       5       0 ms    60 ms      15 ms | 1057 ms
-3   registered    4       8 ms    0 ms        7 ms | 720 ms
-3   demoted       5       0 ms    0 ms       15 ms | 720 ms
-0   registered    5       16 ms   100 ms     15 ms | 1211 ms
-0   demoted       6       0 ms    100 ms     31 ms | 1211 ms
-1   registered    5       16 ms   500 ms     15 ms | 488 ms
-1   demoted       6       0 ms    500 ms     31 ms | 488 ms
-2   registered    5       16 ms   60 ms      15 ms | 1057 ms
-2   demoted       6       0 ms    60 ms      31 ms | 1057 ms
-3   registered    5       16 ms   0 ms       15 ms | 720 ms
-3   demoted       6       0 ms    0 ms       31 ms | 720 ms
-0   registered    6       32 ms   100 ms     31 ms | 1211 ms
-0   demoted       7       0 ms    100 ms     63 ms | 1211 ms
-1   registered    6       32 ms   500 ms     31 ms | 488 ms
-1   demoted       7       0 ms    500 ms     63 ms | 488 ms
-2   registered    6       32 ms   60 ms      31 ms | 1057 ms
-2   I/O blocked   6       3 ms    60 ms      60 ms | 1057 ms
-3   registered    6       32 ms   0 ms       31 ms | 720 ms
-3   demoted       7       0 ms    0 ms       63 ms | 720 ms
-2   registered    6       3 ms    60 ms      60 ms | 1057 ms
-2   demoted       7       0 ms    60 ms      63 ms | 1057 ms
-0   registered    7       64 ms   100 ms     63 ms | 1211 ms
-0   I/O blocked   7       27 ms   100 ms    100 ms | 1211 ms
-1   registered    7       64 ms   500 ms     63 ms | 488 ms
-1   demoted       8       0 ms    500 ms    127 ms | 488 ms
-3   registered    7       64 ms   0 ms       63 ms | 720 ms
-3   demoted       8       0 ms    0 ms      127 ms | 720 ms
-2   registered    7       64 ms   60 ms      63 ms | 1057 ms
-2   demoted       8       0 ms    60 ms     127 ms | 1057 ms
-0   registered    7       27 ms   100 ms    100 ms | 1211 ms
-0   demoted       8       0 ms    100 ms    127 ms | 1211 ms
-1   registered    8       128 ms  500 ms    127 ms | 488 ms
-1   demoted       9       0 ms    500 ms    255 ms | 488 ms
-3   registered    8       128 ms  0 ms      127 ms | 720 ms
-3   demoted       9       0 ms    0 ms      255 ms | 720 ms
-2   registered    8       128 ms  60 ms     127 ms | 1057 ms
-2   demoted       9       0 ms    60 ms     255 ms | 1057 ms
-0   registered    8       128 ms  100 ms    127 ms | 1211 ms
-0   demoted       9       0 ms    100 ms    255 ms | 1211 ms
-1   registered    9       256 ms  500 ms    255 ms | 488 ms
-1   completed     9       23 ms   500 ms    488 ms | 488 ms
-3   registered    9       256 ms  0 ms      255 ms | 720 ms
-3   demoted       10      0 ms    0 ms      511 ms | 720 ms
-2   registered    9       256 ms  60 ms     255 ms | 1057 ms
-2   demoted       10      0 ms    60 ms     511 ms | 1057 ms
-0   registered    9       256 ms  100 ms    255 ms | 1211 ms
-0   demoted       10      0 ms    100 ms    511 ms | 1211 ms
-3   registered    10      512 ms  0 ms      511 ms | 720 ms
-3   completed     10      303 ms  0 ms      720 ms | 720 ms
-2   registered    10      512 ms  60 ms     511 ms | 1057 ms
-2   demoted       11      0 ms    60 ms    1023 ms | 1057 ms
-0   registered    10      512 ms  100 ms    511 ms | 1211 ms
-0   demoted       11      0 ms    100 ms   1023 ms | 1211 ms
-2   registered    11      1024 ms 60 ms    1023 ms | 1057 ms
-2   completed     11      990 ms  60 ms    1057 ms | 1057 ms
-0   registered    11      1024 ms 100 ms   1023 ms | 1211 ms
-0   completed     11      836 ms  100 ms   1211 ms | 1211 ms
+0   registered    1       1 ms    100 ms      0 ms | 918 ms
+0   demoted       2       0 ms    100 ms      1 ms | 918 ms
+1   registered    1       1 ms    500 ms      0 ms | 1408 ms
+1   demoted       2       0 ms    500 ms      1 ms | 1408 ms
+2   registered    1       1 ms    60 ms       0 ms | 1011 ms
+2   demoted       2       0 ms    60 ms       1 ms | 1011 ms
+3   registered    1       1 ms    0 ms        0 ms | 1980 ms
+3   demoted       2       0 ms    0 ms        1 ms | 1980 ms
+0   registered    2       2 ms    100 ms      1 ms | 918 ms
+0   demoted       3       0 ms    100 ms      3 ms | 918 ms
+1   registered    2       2 ms    500 ms      1 ms | 1408 ms
+1   demoted       3       0 ms    500 ms      3 ms | 1408 ms
+2   registered    2       2 ms    60 ms       1 ms | 1011 ms
+2   demoted       3       0 ms    60 ms       3 ms | 1011 ms
+3   registered    2       2 ms    0 ms        1 ms | 1980 ms
+3   demoted       3       0 ms    0 ms        3 ms | 1980 ms
+0   registered    3       4 ms    100 ms      3 ms | 918 ms
+0   demoted       4       0 ms    100 ms      7 ms | 918 ms
+1   registered    3       4 ms    500 ms      3 ms | 1408 ms
+1   demoted       4       0 ms    500 ms      7 ms | 1408 ms
+2   registered    3       4 ms    60 ms       3 ms | 1011 ms
+2   demoted       4       0 ms    60 ms       7 ms | 1011 ms
+3   registered    3       4 ms    0 ms        3 ms | 1980 ms
+3   demoted       4       0 ms    0 ms        7 ms | 1980 ms
+0   registered    4       8 ms    100 ms      7 ms | 918 ms
+0   demoted       5       0 ms    100 ms     15 ms | 918 ms
+1   registered    4       8 ms    500 ms      7 ms | 1408 ms
+1   demoted       5       0 ms    500 ms     15 ms | 1408 ms
+2   registered    4       8 ms    60 ms       7 ms | 1011 ms
+2   demoted       5       0 ms    60 ms      15 ms | 1011 ms
+3   registered    4       8 ms    0 ms        7 ms | 1980 ms
+3   demoted       5       0 ms    0 ms       15 ms | 1980 ms
+0   registered    5       16 ms   100 ms     15 ms | 918 ms
+0   demoted       6       0 ms    100 ms     31 ms | 918 ms
+1   registered    5       16 ms   500 ms     15 ms | 1408 ms
+1   demoted       6       0 ms    500 ms     31 ms | 1408 ms
+2   registered    5       16 ms   60 ms      15 ms | 1011 ms
+2   demoted       6       0 ms    60 ms      31 ms | 1011 ms
+3   registered    5       16 ms   0 ms       15 ms | 1980 ms
+3   demoted       6       0 ms    0 ms       31 ms | 1980 ms
+0   registered    6       32 ms   100 ms     31 ms | 918 ms
+0   demoted       7       0 ms    100 ms     63 ms | 918 ms
+1   registered    6       32 ms   500 ms     31 ms | 1408 ms
+1   demoted       7       0 ms    500 ms     63 ms | 1408 ms
+2   registered    6       32 ms   60 ms      31 ms | 1011 ms
+2   I/O blocked   6       3 ms    60 ms      60 ms | 1011 ms
+3   registered    6       32 ms   0 ms       31 ms | 1980 ms
+3   demoted       7       0 ms    0 ms       63 ms | 1980 ms
+2   registered    6       3 ms    60 ms      60 ms | 1011 ms
+2   demoted       7       0 ms    60 ms      63 ms | 1011 ms
+0   registered    7       64 ms   100 ms     63 ms | 918 ms
+0   I/O blocked   7       27 ms   100 ms    100 ms | 918 ms
+1   registered    7       64 ms   500 ms     63 ms | 1408 ms
+1   demoted       8       0 ms    500 ms    127 ms | 1408 ms
+3   registered    7       64 ms   0 ms       63 ms | 1980 ms
+3   demoted       8       0 ms    0 ms      127 ms | 1980 ms
+2   registered    7       64 ms   60 ms      63 ms | 1011 ms
+2   I/O blocked   7       7 ms    60 ms     120 ms | 1011 ms
+0   registered    7       27 ms   100 ms    100 ms | 918 ms
+0   demoted       8       0 ms    100 ms    127 ms | 918 ms
+2   registered    7       7 ms    60 ms     120 ms | 1011 ms
+2   demoted       8       0 ms    60 ms     127 ms | 1011 ms
+1   registered    8       128 ms  500 ms    127 ms | 1408 ms
+1   demoted       9       0 ms    500 ms    255 ms | 1408 ms
+3   registered    8       128 ms  0 ms      127 ms | 1980 ms
+3   demoted       9       0 ms    0 ms      255 ms | 1980 ms
+0   registered    8       128 ms  100 ms    127 ms | 918 ms
+0   I/O blocked   8       55 ms   100 ms    200 ms | 918 ms
+2   registered    8       128 ms  60 ms     127 ms | 1011 ms
+2   I/O blocked   8       75 ms   60 ms     180 ms | 1011 ms
+0   registered    8       55 ms   100 ms    200 ms | 918 ms
+0   demoted       9       0 ms    100 ms    255 ms | 918 ms
+2   registered    8       75 ms   60 ms     180 ms | 1011 ms
+2   I/O blocked   8       15 ms   60 ms     240 ms | 1011 ms
+2   registered    8       15 ms   60 ms     240 ms | 1011 ms
+2   demoted       9       0 ms    60 ms     255 ms | 1011 ms
+1   registered    9       256 ms  500 ms    255 ms | 1408 ms
+1   I/O blocked   9       11 ms   500 ms    500 ms | 1408 ms
+3   registered    9       256 ms  0 ms      255 ms | 1980 ms
+3   demoted       10      0 ms    0 ms      511 ms | 1980 ms
+0   registered    9       256 ms  100 ms    255 ms | 918 ms
+0   I/O blocked   9       211 ms  100 ms    300 ms | 918 ms
+2   registered    9       256 ms  60 ms     255 ms | 1011 ms
+2   I/O blocked   9       211 ms  60 ms     300 ms | 1011 ms
+1   registered    9       11 ms   500 ms    500 ms | 1408 ms
+1   demoted       10      0 ms    500 ms    511 ms | 1408 ms
+0   registered    9       211 ms  100 ms    300 ms | 918 ms
+0   I/O blocked   9       111 ms  100 ms    400 ms | 918 ms
+2   registered    9       211 ms  60 ms     300 ms | 1011 ms
+2   I/O blocked   9       151 ms  60 ms     360 ms | 1011 ms
+0   registered    9       111 ms  100 ms    400 ms | 918 ms
+0   I/O blocked   9       11 ms   100 ms    500 ms | 918 ms
+2   registered    9       151 ms  60 ms     360 ms | 1011 ms
+2   I/O blocked   9       91 ms   60 ms     420 ms | 1011 ms
+0   registered    9       11 ms   100 ms    500 ms | 918 ms
+0   demoted       10      0 ms    100 ms    511 ms | 918 ms
+2   registered    9       91 ms   60 ms     420 ms | 1011 ms
+2   I/O blocked   9       31 ms   60 ms     480 ms | 1011 ms
+2   registered    9       31 ms   60 ms     480 ms | 1011 ms
+2   demoted       10      0 ms    60 ms     511 ms | 1011 ms
+3   registered    10      512 ms  0 ms      511 ms | 1980 ms
+3   demoted       11      0 ms    0 ms     1023 ms | 1980 ms
+1   registered    10      512 ms  500 ms    511 ms | 1408 ms
+1   I/O blocked   10      23 ms   500 ms   1000 ms | 1408 ms
+0   registered    10      512 ms  100 ms    511 ms | 918 ms
+0   I/O blocked   10      423 ms  100 ms    600 ms | 918 ms
+2   registered    10      512 ms  60 ms     511 ms | 1011 ms
+2   I/O blocked   10      483 ms  60 ms     540 ms | 1011 ms
+1   registered    10      23 ms   500 ms   1000 ms | 1408 ms
+1   demoted       11      0 ms    500 ms   1023 ms | 1408 ms
+0   registered    10      423 ms  100 ms    600 ms | 918 ms
+0   I/O blocked   10      323 ms  100 ms    700 ms | 918 ms
+2   registered    10      483 ms  60 ms     540 ms | 1011 ms
+2   I/O blocked   10      423 ms  60 ms     600 ms | 1011 ms
+0   registered    10      323 ms  100 ms    700 ms | 918 ms
+0   I/O blocked   10      223 ms  100 ms    800 ms | 918 ms
+2   registered    10      423 ms  60 ms     600 ms | 1011 ms
+2   I/O blocked   10      363 ms  60 ms     660 ms | 1011 ms
+0   registered    10      223 ms  100 ms    800 ms | 918 ms
+0   I/O blocked   10      123 ms  100 ms    900 ms | 918 ms
+2   registered    10      363 ms  60 ms     660 ms | 1011 ms
+2   I/O blocked   10      303 ms  60 ms     720 ms | 1011 ms
+0   registered    10      123 ms  100 ms    900 ms | 918 ms
+0   completed     10      105 ms  100 ms    918 ms | 918 ms
+2   registered    10      303 ms  60 ms     720 ms | 1011 ms
+2   I/O blocked   10      243 ms  60 ms     780 ms | 1011 ms
+2   registered    10      243 ms  60 ms     780 ms | 1011 ms
+2   I/O blocked   10      183 ms  60 ms     840 ms | 1011 ms
+2   registered    10      183 ms  60 ms     840 ms | 1011 ms
+2   I/O blocked   10      123 ms  60 ms     900 ms | 1011 ms
+2   registered    10      123 ms  60 ms     900 ms | 1011 ms
+2   I/O blocked   10      63 ms   60 ms     960 ms | 1011 ms
+2   registered    10      63 ms   60 ms     960 ms | 1011 ms
+2   completed     10      12 ms   60 ms    1011 ms | 1011 ms
+3   registered    11      1024 ms 0 ms     1023 ms | 1980 ms
+3   completed     11      67 ms   0 ms     1980 ms | 1980 ms
+1   registered    11      1024 ms 500 ms   1023 ms | 1408 ms
