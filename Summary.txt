@@ -1,11 +1,11 @@
 Scheduling Type:       Batch (Non-preemptive)
 Scheduling Name:       First-Come First-Served
-Simulation Run Time:   4858
+Simulation Run Time:   3476
 Average Run Time:      1100
 Standard Deviation:    510
 
 Process   CPU Time    CPU Completed   I/O Interval    Times Blocked   
-1         1124 ms     1124 ms         100 ms          11 times        
-2         1172 ms     1172 ms         500 ms          2 times         
-3         1190 ms     1190 ms         60 ms           19 times        
-4         1372 ms     1372 ms         0 ms            0 times         
+1         1211 ms     1211 ms         100 ms          1 times         
+2         488 ms      488 ms          500 ms          0 times         
+3         1057 ms     1057 ms         60 ms           1 times         
+4         720 ms      720 ms          0 ms            0 times         
